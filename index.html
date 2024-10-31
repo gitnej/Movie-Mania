@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Mania</title>
+  <link rel="shortcut icon" href="movie_icon.jpg" type="image/x-icon" />
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Movie Mania</h1>
+    <input type="text" id="search" placeholder="Search movies...">
+    <div id="suggestions"></div>
+  </header>
+
+  <!--End of Header -->
+
+  <!--Trending Movies-->
+
+  <main>
+    <section id="trending">
+      <h2>Trending Movies</h2>
+      <div id="trending-movies" class="movies-container"></div>
+    </section>
+
+    <section id="movie-details" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 id="movie-title"></h2>
+        <p id="movie-synopsis"></p>
+        <div id="movie-gallery"></div>
+        <button id="add-to-watchlist">Add to Watchlist</button>
+      </div>
+    </section>
+
+    <!--End of Trending Movies -->
+    
+    
+    <!--Watchlist-->
+    <section id="watchlist">
+      <h2>Your Watchlist</h2>
+      <div id="watchlist-movies" class="movies-container"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+
+  <footer>
+    <footer>
+      <p>Movie Mania by Nicholas</p>
+        <p class="footcopy"> &copy; 2024</p>
+      </footer>
+  </footer>
+</body>
+</html>
