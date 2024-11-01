@@ -1,4 +1,4 @@
-const API_KEY = 'ec332gitd19e6fed067df0160ce34067cc4';
+const API_KEY = 'ec332d19e6fed067df0160ce34067cc4';
 const trendingMoviesContainer = document.getElementById('trending-movies');
 const watchlistMoviesContainer = document.getElementById('watchlist-movies');
 const searchInput = document.getElementById('search');
